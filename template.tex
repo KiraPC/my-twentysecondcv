@@ -1,0 +1,150 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{me.jpg} % Profile picture
+
+\cvname{Pasquale Carmine \newline Carbone} % Your name
+\cvjobtitle{Software Engineer} % Job title/career
+
+\cvdate{07 October 1993} % Date of birth
+\cvaddress{Italy} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+39 3270055770} % Phone number
+\cvmail{pasqualecarmine.carbone@gmail.com} % Email address
+\cvlinkedin{https://www.linkedin.com/in/pasquale-carmine-carbone}
+\cvgithub{https://github.com/KiraPC}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Lang bar section, each skill must have a value between 0 an 6 (float)
+\lang{{Ita/6},{Eng/4}}
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Java/3},{ElasticSearch/4},{Kubernetes/4}, {Docker/4}, {Git/5}, {AWS/5}, {Python/4},{NodeJS/5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{ReactJS/2},{Angular/4},{ReactNative/3},{Flutter/3},{Funny/5},{Group-Work/5},{Problem-solving/5},{TypeScript/4},{AtlassianTools/5}, {Design/5}, {Jenkins/4}, {Groovie/3}, {GCP/3}, {REST/5}, {SOAP/2}, {MySQL/3}}
+
+% Soft skills, not rendered for now
+\sskills{}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 ABOUTME
+%----------------------------------------------------------------------------------------
+
+\section{About Me}
+
+\subsection{Review}
+I'm a Doctor in Computer and Biomedical Engineering. Since I was a child, I'm interested to new technologies and I cultivated a passion for programming and, more generally, for information technology. \newline
+This leads me to always update myself. I like to experiment with new technologies and use them also for my personal interests, to make everyday actions smart too. \newline 
+I am also cultivating a passion for travel around the world, to know new cultures and contexts.
+
+%\vspace{10mm}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+    \twentyitem{Since 2020}{Enel Group}{Rome, RM}
+	{
+	    Design and development of scalable API services based on a micro-services architecture.
+	    \newline
+	    Build tools for extracting, transforming, and loading (ETL) jobs on diagnostic data sets.
+    }
+	\tw
+	\twentyitem{2017-2020}{Accenture Technology Solutions}{Rome, RM}
+	{
+	    Design, development and maintenance of a web application built with NodeJS.
+	    \newline 
+	    Design and development of Cloud-Native solutions focused on AWS.
+    }
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+	\twentyitem{2012-2016}{CdL Ingegneria Informatica e Biomedica}{UMG Catanzaro, CZ}
+	{Thesis title: Definizione e sviluppo di una piattaforma per la comparazione di reti biologiche}
+	\twentyitem{2008-2012}{{Liceo Scientifico}}{Filadelfia, VV}{Istituto Omnicomprensivo}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Certifications
+%----------------------------------------------------------------------------------------
+
+\section{Certifications}
+
+\begin{twenty} % Environment for a short list with no descriptions
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+	\twentyitem{2019}
+	{\href{https://www.certmetrics.com/amazon/public/badge.aspx?i=2&t=c&d=2019-07-11&ci=AWS00935312}{AWS Certified Developer - Associate}}
+	{}
+	{}
+	\twentyitem{2018}
+	{\href{https://www.youracclaim.com/badges/8bae5d77-6b02-4bc1-9001-4d7134cd4d9f/linked_i}{Certified SAFe 4 Practitioner}}
+	{}
+	{}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Training
+%----------------------------------------------------------------------------------------
+
+\section{Training}
+
+\begin{twenty} % Environment for a short list with no descriptions
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+    \twentyitem{2020}{GCP Associate Cloud Engineer}{Rome, RM}
+	{Hands on with Google Cloud Platform}
+    \twentyitem{2020}{MEAN Stack}{Rome, RM}
+	{Design and develop front-end and back-end application using angular, nodejs, express and mongoDB}
+	\twentyitem{2018}{ElasticSearch}{Rome, RM}
+	{Advanced course on the Lucene-based search engine.}
+	\twentyitem{2018}{ReactJS Base}{Rome, RM}
+	{Introduction to the framework that allows the creation of high-performance user interfaces.}
+    \twentyitem{2017}{Java EE Developer Course}{Roma, RM}
+    {Development of a web application for the management of online sales of IT products.}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 Personal Projects
+%----------------------------------------------------------------------------------------
+
+\section{Personal-Projects}
+
+\item
+    {Development of a OpenSource Library for Python FastAPI to allow the usage of Class as Controller.}
+\item
+    {Development of a NodeJS server for controlling Smart TV via HTTP requests.}
+\item
+    {Integration of an HTTP server for SmartTV control with Google Assistant in order to replace the traditional remote control with voice commands.}
+
+\end{document} 
